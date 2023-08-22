@@ -1,0 +1,317 @@
+/* Document-Wide Styling */
+
+* {
+  margin:0;
+  padding: 0;
+  overflow-anchor: none
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85,85,85);
+}
+
+a, .btn {
+  transition: all 300ms ease;
+}
+
+
+/* nav bar styling */
+
+nav, .nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: grey;
+}
+
+/* logo */
+
+.logo {
+  font-size: 2rem;
+  color: lightblue;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+
+/* section styling */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+  min-width: fit-content;
+  padding-bottom: 4vh;
+  overflow: auto;
+}
+
+.section_container {
+  display: flex;
+}
+
+/* profile styling */
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.section_pic {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section_text {
+  align-self: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.section_text_p1 {
+  text-align: center;
+  font-weight: 5rem;
+}
+
+.section_text_p2 {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;;
+  background-color: lightblue;
+  border: rgb(53,53,53) 0.1rem solid;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgb(53,53,53);
+  color: white;
+}
+
+/* about styling */
+
+.block {
+  align-self: left;
+  text-align: left;
+  padding: .5rem;
+  color: rgb(85,85,85);
+  /* display:flex;
+  justify-content: center;
+  background-color: lightgrey;
+  padding: 1rem; */
+}
+
+ul {
+  justify-content: center;
+}
+
+.big_block {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53,53,53) 0.1rem solid;
+  border-color: lightblue;
+  background: lightblue;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-width: 0.5rem;
+  flex-direction: column;
+}
+
+.about_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+  flex-direction: column;
+}
+
+.detail_container {
+  padding: 1,5rem;
+  flex:1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53,53,53) 0.1rem solid;
+  border-color: rgb(163,163,163);
+  text-align: center;
+
+}
+
+/* skills styling */
+
+#skills {
+  position: relative;
+}
+
+.skills_subtitle {
+  color: rgb(85,85,85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.article_container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
+}
+
+.details_container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53,53,53) 0.1rem solid;
+  border-color: lightblue;
+  text-align: center;
+  margin: 2rem;
+  flex-shrink: 0;
+  border-width: 0.5rem;
+}
+
+.skills_detail_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+
+}
+
+/* contact styling  */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53,53,53) 0.1rem solid;
+  border-color: lightblue;
+  background: rbg(250,250,250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+  border-width: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+/* footer styling  */
+
+.email-icon {
+  height: 2.5rem;
+}
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
